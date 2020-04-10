@@ -79,4 +79,4 @@ def user_login(request):
             return HttpResponse("invalid login details supplied!")
     else:
         return render(request, 'basic_app/login.html', {})
-VVV
+
